@@ -1,0 +1,46 @@
+Khai báo biến
++,   var [tên biến] : [kiểu dữ liệu] = [giá trị]
++,   val: tương tự var, nhưng đây là khai báo hằng
+kí tự ? : cho phép biến,giá trị này có thể gán giá trị bằng null  Exp: var valueDemo: String ? = "hello"                 valueDemo = null
+kí tự !! Không cho phép giá trị này bằng null : Exp: var valueDemo : String = "hello"!!
+
+switch được thay bằng when: 
+var a: Int ? = 1
+        when (a) {
+            1,2,3 -> {
+                Toast.makeText(this, "hello So 1", Toast.LENGTH_SHORT).show()
+            }
+            in 4..10 -> { //lấy trong khoảng 4-10
+                Toast.makeText(this, "hello so 2", Toast.LENGTH_SHORT).show()
+            }
+	    11 -> //do nothing
+        }
+
++, mảng : // C1   var mangSo : IntArray = intArrayOf(1,2,3,4,5)
+        
+//        C2
+//        var mangTen : List<String> = listOf("A","B","C","D")
+//        Log.d("AAA","two = "+ mangTen.get(2))
+        
+        //C3
+        var mangTen : ArrayList<String> = ArrayList()
+        mangTen.add("A")
+        mangTen.add("B")
+        mangTen.add("C")
+        mangTen.add("D")
+
+//remove item trong mảng: 
+	mangTen.remove("C")
+        mangTen.removeAt(2)
+
+//sửa giá trị trong mảng: mangTen.set(2,"Ahihi")
+
++,  Hàm
+(void)	fun [tên hàm](...)
+	{
+	    //todo
+	}
+
+	fun [tên hàm](...) : [kiểu trả về]{
+	}
+
