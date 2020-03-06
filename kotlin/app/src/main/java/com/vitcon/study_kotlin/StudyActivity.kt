@@ -14,5 +14,7 @@ class StudyActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_study)
+        val numbers = listOf(1,2,3,4,5)
+        Log.d("a",numbers.joinToString())
     }
 }

@@ -1,7 +1,7 @@
 Khai báo biến
 +,   var [tên biến] : [kiểu dữ liệu] = [giá trị]
 +,   val: tương tự var, nhưng đây là khai báo hằng
-kí tự ? : cho phép biến,giá trị này có thể gán giá trị bằng null  Exp: var valueDemo: String ? = "hello"                 valueDemo = null
+kí tự ? : cho phép biến,giá trị này có thể gán giá trị bằng null  Exp: var valueDemo: String ? = "hello"     valueDemo = null
 kí tự !! Không cho phép giá trị này bằng null : Exp: var valueDemo : String = "hello"!!
 
 switch được thay bằng when: 
